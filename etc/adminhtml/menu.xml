@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Wagento_Phpinfo::phpinfo" title="PHP Info" translate="title" module="Wagento_Phpinfo" parent="Magento_Backend::system_other_settings" sortOrder="50" dependsOnModule="Wagento_Phpinfo" resource="Wagento_Phpinfo::phpinfo" action="phpinfo/phpinfo"/>
+    </menu>
+</config>
