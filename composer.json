@@ -2,8 +2,14 @@
     "name": "wagento/phpinfo",
     "description": "Add phpinfo() information to the Magento admin",
     "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Joe Shelton",
+            "email": "joe.s@wagento.com"
+        }
+    ],
     "license": [
-        "proprietary"
+        "MIT"
     ],
     "autoload": {
         "files": [
@@ -13,5 +19,5 @@
             "Wagento\\Phpinfo\\": ""
         }
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
 }

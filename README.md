@@ -1,17 +1,22 @@
-<h2>Description</h2>
+## Description
 
 Display phpinfo() in the Magento admin
 
-<h2>Usage</h2>
+## Usage
 
 The phpinfo() page can be found in the admin under "System > Other Settings > PHP Info"
 
-<h2>Requirements</h2>
+## Requirements
 
 The module has been tested on Magento 2.3.2 with PHP 7.2. It has not been tested by the author on any other versions.
 
-<h2>Installation</h2>
+## Installation
+
+This module is available on [packagist.org](https://packagist.org/packages/wagento/phpinfo)!
+
+`composer require wagento/phpinfo`
+
+Alternatively, add the following repository first.
 
 `composer config repositories.wagento/phpinfo vcs https://github.com/joeshelton-wagento/phpinfo`
 
-`composer require wagento/phpinfo`
